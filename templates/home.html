@@ -23,7 +23,7 @@
                 padding: 25px;
             }
             footer {
-                background-color: black;
+                background-color: black !important;
                 position: absolute;
                 left: 0;
                 bottom: 0;
@@ -58,18 +58,9 @@
 
     <body>
         
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" style="background-color: black !important;">
-            <a href="{{ url_for('home') }}" style="color: white;font-size: 25px;">Credit Card Default</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-             </button>
-             <div class="collapse navbar-collapse" id="navbarNav">
-               <ul class="navbar-nav ml-auto">
-                 <li class="nav-item active">
-                   <a href=" https://github.com/shivap12/Derivingfinancial-insights" target="_blank" class="nav-link"><span style="font-size: 20px;" class="fa fa-github"></span>&nbsp;Github project link </a>
-                 </li>
-               </ul>
-             </div>
+        <nav class="navbar-expand-lg navbar-dark fixed-top bg-dark text-center container-fluid-nav" style="background-color: #ecf0f1 !important;">
+           <pre><a href="{{ url_for('home') }}" style="color: green;font-size: 25px;">Credit Card Default 
+<small>A Project by P Siva Krishna</small></a></pre>
            </nav>
            
            <br><br>
@@ -236,8 +227,8 @@
            </div>
 
            <footer>
-            <center><p style="color: white;font-size: 17px;font-weight: bold;margin-top: 10px;">Made by PENTAPATI SIVA KRISHNA</p></center>
-            <center><p style="color: white;font-size: 17px;font-weight: bold;margin-top: 10px;"></p></center>
+            <center><p style="color: white;font-size: 17px;font-weight: bold;margin-top: 10px;">Made by PENTAPATI SIVA KRISHNA<a href=" https://github.com/shivap12/Derivingfinancial-insights" target="_blank" class="nav-link"><span style="font-size: 20px;" class="fa fa-github"></span>&nbsp;Github project link </a></p></center>
+            <center><p style="color: white;font-size: 17px;font-weight: bold;margin-bottom: 25px;"></p></center>
 
         </footer>
     </body>
